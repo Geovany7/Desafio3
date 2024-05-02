@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #4d66f3;
+    display: flex;
+}
+
+.tituloETexto{
+    width: 35%;
+    margin-left: 8%;
+    margin-top: 18%;
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    margin-top: 3%;
+}
+
+form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-left: 8%;
+    height: 100%;
+    width: 30%;
+    padding: 1.5%;
+}
+
+#nome{
+    margin: 0;
+}
+input{
+    width: 95.2%;
+    margin-top: 4%;
+    padding: 2% 2%;
+    font-size: 22px;
+    padding-top: 2.2%;
+    border-radius: 10px;
+    border: solid 2px;
+}
+
+input::-webkit-input-placeholder{
+    font-size: 22px;
+}
+
+textarea{
+    border-radius: 10px;
+    margin-top: 4%;
+    padding: 2%;
+    border: 2px solid black;
+    font-size: 22px;
+}
+
+textarea::-webkit-input-placeholder{
+    font-size: 22px;
+}
+
+.campos{
+    color: red;
+    font-size: 15px;
+    margin-top: 0;
+}
+
+p{
+    font-size: 22px;
+    margin-top: 1%;
+    font-family: monospace;
+}
+
+button{
+    margin-top: 4%;
+    background-color: #3CCC87;
+    font-size: 22px;
+    color: white;
+    padding: 3% 0;
+    border-radius: 10px;
+    border: #3CCC87;
+    cursor: pointer;
+}
